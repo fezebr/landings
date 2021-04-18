@@ -1,0 +1,176 @@
+@media (min-width: 576px) {
+   
+
+     header {
+          padding: 0px 20px;
+     }
+
+     .banner button {
+          width: 80%;
+          padding: 15px 0px;
+     }
+
+     .about-content {
+          padding: 25px 50px;
+     }
+
+     .what-we-do {
+          padding: 25px 50px;
+     }
+
+     .drupal button {
+          margin-top: 7px;
+          background-color: #FAFAFA;
+          color: #666;
+          width: 100%;
+          /* padding: 15px 50px; */
+     }
+
+     .newsletter-content {
+          width: 54%;
+          margin: auto;
+     }
+
+
+     /* /////////////////////////////// */
+     .pic {
+          /* height: 50vh; */
+          display: grid;
+          grid-template-rows: 1fr 1.5fr;
+          grid-template-columns: repeat(2, 1fr);
+     }
+
+     .item2 {
+          grid-area: 1 / 1 / 2/ 2;
+     }
+
+     .item1 {
+          grid-area: 1 / 2 / 2/ 3;
+     }
+
+     .instagram {
+          grid-area: 2 / 1 / 3 /3;
+
+     }
+
+     /* /////////////////////////////// */
+     .copyright{
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-around;
+     }
+     .footer-content{
+          flex-wrap: wrap;
+          display: flex;
+          align-items: center;
+     }
+     .logo-footer {
+          width: 155px;
+          margin-right: 10px;
+     }
+
+     .footer-content p {
+        
+          font-size: .95em;
+     }
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+     .header {
+          padding: 0px 60px;
+     }
+
+     .drop-down-menu {
+          display: none;
+     }
+
+     nav ul {
+          display: flex;
+     }
+
+     .banner-content {
+          padding-top: 22%;
+     }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+     .flex-row-992 {
+          flex-direction: row;
+     }
+
+     .w-50-992 {
+          width: 50% !important;
+     }
+
+     .w-35-992 {
+          width: 35%;
+     }
+     .w-65-992 {
+          width: 65%;
+     }
+
+     header {
+          padding: 0px 70px;
+     }
+
+     .banner input {
+          margin: 0 auto;
+     }
+
+     .banner button {
+          width: auto;
+          padding: 15px 60px;
+     }
+
+     .newsletter button {
+          width: auto;
+          padding: 15px 60px;
+     }
+
+     .about-svg {
+          height: 100%;
+     }
+
+     .pic {
+          /* height: 40vh; */
+          display: grid;
+          grid-template-rows: 1fr !important;
+          grid-template-columns: repeat(3, 1fr);
+     }
+
+     .item1 {
+          grid-area: 1 / 3 / 2/ 4;
+     }
+
+     .item2 {
+          grid-area: 1 / 2 / 2 /3;
+     }
+
+     .instagram {
+          /* grid-area: 1 / 2 / 2/ 3; */
+          grid-area: 1 / 1 / 2/ 2;
+
+     }
+     /* ////////////////////// */
+     .logo-footer {
+          width: 55px;
+     }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+     header {
+          padding: 0px 90px;
+     }
+
+     .drupal button {
+
+          color: #666;
+          width: auto;
+
+          padding: 15px 50px;
+     }
+}
